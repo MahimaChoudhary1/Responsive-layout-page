@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+  <!----------------------------------- NAVBAR-------------------------------------------------------->
+    <div class="wrapper">
+        <div class="multi_border">
+  
+      <div class="top_nav">
+        <div class="left"><abbr style="text-decoration: none" title="Cognizant.com">Cognizant.com</abb></div>
+        <div class="right">
+          <ul>
+            <li><a href= "#">Careers</a></li>
+            <li><a href= "#"><img src="images/dot.svg" class ="dotlogo" width="40" height="40">News</a></li>
+            <li><a href= "#"><img src="images/dot.svg" class ="dotlogo" width="40" height="40">Events</a></li>
+            <li><a href= "#"><img src="images/dot.svg" class ="dotlogo" width="40" height="40">Investors</a></li>
+            <li style="font-size: 25px;">|</style> </li>
+            <li> <a href="#"> <img src="images/Globe2.svg" class ="logo" width="20" height="20" ></a></li>
+              <li> <a href="#"> Worldwide </a></li>
+            <li> <a href="#"> <img src="images/search.svg" class ="search_logo" width="20" height="20"></a></li>
+          </ul>
+        </div>
+      </div>
+     
+      <div class="bottom_nav">
+        <div class="left_bottom">
+          <img src="images/logo.jpg" width="230" height="60"><h1>|</h1> <p>India </p>
+       
+       
+        </div>
+        <div class="right_bottom">
+          <ul>
+            <li><a href= "#">Industries<img src="images/caret-down.svg" class ="caret-down" width="20" height="20"></a></li>
+            <li><a href= "#">Services<img src="images/caret-down.svg" class ="caret-down" width="20" height="20"></a></li>
+            <li><a href= "#">Latest Thinking<img src="images/caret-down.svg" class ="caret-down" width="20" height="20"></a></li>
+            <li><a href= "#">About<img src="images/caret-down.svg" class ="caret-down" width="20" height="20"></a></li>
+          </ul>
+        </div>
+        
+      </div>
+      </div>
+      <div class="container">
+        <div class="offcanvas offcanvas-end" id="offCanvas">
+          <div class="offcanvas-body">
+            <a href="#"
+              ><button class="btn btn_oc rounded-0">
+                Industries<i class="bi bi-caret-right"></i></button
+            ></a>
+            <a href="#"
+              ><button class="btn btn_oc rounded-0">
+                Services<i class="bi bi-caret-right"></i></button
+            ></a>
+            <a href="#"
+              ><button class="btn btn_oc rounded-0">
+                Latest Thinking<i class="bi bi-caret-right"></i></button
+            ></a>
+            <a href="#"
+              ><button class="btn btn_oc rounded-0">
+                About<i class="bi bi-caret-right"></i></button
+            ></a>
+            <a href="#"><button class="btn a_oc_h rounded-0">Career</button></a>
+            <a href="#"><button class="btn a_oc rounded-0">News</button></a>
+            <a href="#"><button class="btn a_oc rounded-0">Events</button></a>
+            <a href="#"><button class="btn a_oc rounded-0">Investors</button></a>
+            <a href="#"><button class="btn a_oc rounded-0">Worldwide</button></a>
+          </div>
+        </div>
+       
+      <nav class="navbar navbar-expand-lg py-3 row">
+        <div class="container-fluid">
+      
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offCanvas"
+          >
+            <span class="navbar-toggler-icon"
+              ><i
+                class="fas fa-bars"
+                style="color: rgb(11, 194, 11); font-size: 30px"
+              ></i
+            ></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+        </div>
+        <!---------------------------------------- CAROUSEL --------------------------------------------->
+        <div id="carouselCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Main.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h1>Engineer a better <br>world with us</h1>
+                <p>Join us and sharpen your technical skills,harness your passion for solving problems and expand your potential for shaping the future.</p>
+                <a href="#" class="btn btn-lg btn-primary">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Main3.png" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-md-block">
+                <h1>Your partner in the cloud</h1>
+                <p>Cognizant can help you leverage cloud to creat exceptional customer 
+                  experiences and improve time to market.</p>
+                <a href="#" class="btn btn-lg btn-primary">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/main2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h1>Find out why we are a data and AI Leader</h1>
+                <p>Intelligent automationis easier then ever with Cognizant Neuro ,a suite of solutions that deliver exprience faster.
+                 </p>
+                <a href="#" class="btn btn-lg btn-primary">LEARN MORE</a>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <img src="images/MicrosoftTeams-image (2).png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>Better CX and game-changing returns</h1>
+                  <p>Join us and sharpen your technical skills,harness your passion for solving problems and expand your potential for shaping the future.</p>
+                  <a href="#" class="btn btn-lg btn-primary">LEARN MORE</a>
+                </div>
+          </div></div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!----------------------------------------- CONTENT------------------------------------------------------->
+    <div class="container">
+        <div class="quote" style="color: rgb(4, 4, 117);">
+          Cognizant helps companies modernize technology, reimagine processes and
+          transform experiences so they stay ahead in a fast-charging world.
+        </div>
+      </div>
+
+      <!----------------------------------------- BROWSER JOBS LISTING ---------------------------------------------->
+    <div class=" browserrow" style="margin: 0px;">
+        <div class="col-0">
+          <img src="images/hp-recruitment-top-banner.jpg">
+        </div>
+        <div class="col-1">
+          <h3>Advance your career—and the world we live in</h3>
+    <p>Continuously sharpen your technical skills, your problem-<br>solving abilities and your entrepreneurial spirit. Join Cognizant, <br>and help us change lives.</p>
+    <a href="#"
+                ><button class="btn btn_c rounded-0 btn-sm">
+                    BROWSER JOBS LISTING<i class="bi bi-caret-right"></i></button
+              ></a></div>
+        <div class="col-2">
+          <img src="images/hp-recruitment-top-banner.jpg">
+        </div>
+      </div>
+      <!-------------------------------------------- COGNIZANT IN INDIA -------------------------------------->
+    <div class="container-fluid bg-light pt-5 pb-5">
+        <div class="container bg-light">
+          <h1 style="color: #0033a1; font-size: 40px; font-weight: bold">
+            Cognizant in India
+          </h1>
+          <p>See how cognizant engineers your modern business</p>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/case-study-effectv-tv-ad.jpg"  alt="Image" height="320" />
+                <div class="card-img-overlay d-flex align-items-end">
+                  <div class="overlay"><p class="cf">Effetv creates industry-first ad platform</p></div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/case-study-automation-improves-telecom.jpg"
+                  alt="Image" height="320"
+                />
+                <div class="card-img-overlay d-flex align-items-end">
+                  <div class="overlay"><p class="cf">Telecom giant cuts costs by 26%</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/case-study-mobile-app-cx.jpg"
+                  alt="Image" height="320"
+                />
+                <div class="card-img-overlay d-flex align-items-end">
+                  <div class="overlay"><p class="cf">Comms firm ups mobile app usage by 150%</p></div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/migrating-to-greater-sap-savings-th.jpg"
+                  alt="Image" height="320" 
+                />
+                <div class="card-img-overlay d-flex align-items-end">
+                  <div class="overlay"><p class="cf">An India pharmaceutical company's journey to cloud</p></div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!------------------------------ SERVICES ----------------------------------------------->
+    <div style=" background-image: url(images/services-india-hp-parallax-banner.jpg);
+    position: relative; background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;padding-top: 100px;padding-bottom: 40px;min-height: 500px;"  >
+  <div class="ps-5 pe-4 pb-5 mt-6">
+      <h5 class="topic" style="color: white; padding-top: 30px;"> DEPATH OF EXPERTISE<hr> </h5>
+    <h1 class="text" style="color: white; ">Services</h1>
+
+          <div class="card" style="background-color: #0033a1; color: white">
+            <div class="card-body row">
+              <h3
+                class="col-12 col-sm-4 col-md-3 text-white"
+                style="border-right: solid 1px"
+              >
+                CLOUD EMABLEMENT
+              </h3>
+      
+              <p class="col-10 col-sm-7 col-md-8" style="font-size: 1.15rem">
+               Intelligent cloud mobilizes your organization witha next-generation cloud operating model that helps increase velocity and control.
+               .</p>
+      
+              <button class="col btn text-white pb-3" style="font-size: 1.3rem">
+                <img src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png" width="25px" alt="">
+              </button>
+            </div>
+          </div>
+          <div class="card" style="background-color: #002b87; color: white">
+            <div class="card-body row">
+              <h3
+                class="col-12 col-sm-4 col-md-3 text-white"
+                style="border-right: solid 1px"
+              >
+                APPLICATION SERVICES & MODERNIZATION
+              </h3>
+      
+              <p class="col-10 col-sm-7 col-md-8" style="font-size: 1.15rem">
+                Our application Moderanization services help you achieve agility for an increasingly digital world. Integrate a comnination of accelerate, Platforms and strategic Partners to modernize core business application.</p>
+      
+              <button class="col btn text-white pb-3" style="font-size: 1.3rem">
+                <img src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png" width="25px" alt="">
+              </button>
+            </div>
+          </div>
+          <div class="card" style="background-color: #00236d; color: white;">
+      <div class="card-body row">
+        <h3
+          class="col-12 col-sm-4 col-md-3 text-white"
+          style="border-right: solid 1px"
+        >
+          DATA,ANALYTICS & AI
+        </h3>
+
+        <p class="col-10 col-sm-7 col-md-8" style="font-size: 1.15rem">
+          Integrate the enterprise and accelerate value through advanced
+          data management strategies and solutions.
+        </p>
+
+        <button class="col btn text-white pb-3" style="font-size: 1.3rem">
+          <img  src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png" width="25px" alt="">
+        </button>
+      </div>
+    </div>    
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-------------------------------- ENGINEERING EXCELLENCE----------------------------------------------->
+    <div class="container-fluid mb-4 mb-sm-4 mb-md-5">
+        <div class="container" style="background-color: rgb(236, 233, 233); width: 100%;">
+          <h1
+            style="color: #0033a1; font-size: 50px; font-weight: bold"
+            class="mt-sm-2 mt-md-4"      >
+            Engineering excellence
+          </h1>
+          <p class="mb-sm-2 mb-md-4">
+            We deliver leadership excellence by partnering with the best in the
+            business.
+          </p>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/boosting-sales-and-customer-loyalty-th.jpg"
+                  alt="Image" class="card-img-top" height="300"/>
+                <div class="card-body">
+                  <p class="text-muted card-title">AUTOMOTIVE</p>
+                  <h5 class="card-text" style="color:rgba(1, 41, 173, 0.877); font-weight: bold;">
+                    Boosting sales with highly personalized campaigns
+                    </h5>
+                  <p class="card-text">
+                    Luxury car company makes the right offer at the right time through the right channel, with a scalable cloud solution.
+                  </p>
+                  <a href="#"
+                    ><button class="btn btn_ca pb-3"style="color: #007e00e0; font-weight:bold; font-size: 20px;">
+                      VIEW CASE STUDY<img  src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png"width="25px" alt="" style="padding-bottom: 6px; padding-left:5px ;"></button>
+                      </button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/orica-doubles-system-availability-th.jpg"
+                  alt="Image"
+                  class="card-img-top" height="300"
+                />
+                <div class="card-body">
+                  <p class="text-muted card-title">MANUFACTURING</p>
+                  <h5 class="card-text" style="color:rgba(1, 41, 173, 0.877); font-weight: bold;">Orica’s SAP doubles system availability</h5>
+                  <p class="card-text">
+                    Learn how Orica's SAP  automates infrastructure with an SAP S/4HANA managed platform.
+
+                  </p>
+                  <a href="#"
+                    ><button class="btn btn_ca pb-3"style="color: #007e00e0; font-weight:bold; font-size: 20px;">
+                      VIEW CASE STUDY<img  src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png"width="25px" alt="" style="padding-bottom: 6px; padding-left:5px ;"></button>
+                      </button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/global-bank-detects-fraud-th.jpg"
+                  alt="Image"
+                  class="card-img-top" height="300"
+                />
+                <div class="card-body">
+                  <p class="text-muted card-title">BANKING</p>
+                  <h5 class="card-text" style="color:rgba(1, 41, 173, 0.877); font-weight: bold;">
+                    Global bank detects check fraud with AI
+                  </h5>
+                  <p class="card-text" >
+                    The global bank is able to reduce 50% of fraudulent transactions with a solution based on AI machine learning.
+
+                  </p>
+                  <a href="#"
+                  ><button class="btn btn_ca pb-3"style="color: #007e00e0; font-weight:bold; font-size: 20px;">
+                    VIEW CASE STUDY<img  src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png" width="25px" alt="" style="padding-bottom: 6px; padding-left:5px ;"></button>
+                    </button
+                ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-------------------------------- OUTREACH BANNER--------------------------------------------->
+    <div class="card">
+        <img
+          src="images/outreach-banner-mob.jpg" 
+          alt="Image"
+          style="object-fit: cover; " height="500"
+        />
+        <div
+          class="card-img-overlay text-white m-4 m-sm-4 m-md-5"
+          style="width: 40vw; height: 30vw ; background: rgba(0, 0, 0, 0.5);"
+        >
+          <div class="card-title">
+            <h1 style="color: white; font-size: 4vw; font-weight: bold;">
+              Cognizant Outreach: building skills in the community
+            </h1>
+          </div>
+          <a href="#"
+                    ><button class="btn btn_ca pb-3"style="color: darkgreen; font-weight:bold; font-size: 30px; padding: 10px;">
+                      PLAY VIDEO</button>
+                      </button
+                  ></a>
+        </div>
+      </div>
+    
+    
+      <!---------------------------------------   FORM  --------------------------------->
+    <div class="sticky-image1">
+        <div class="container">
+            <h1 class="text-center pt-5" style="font-size:50px;color:darkblue;text-align: center; ">GET ANSWERS TO YOUR
+                QUESTIONS</h1>
+            <p class="text=center" style="font-size: 22px;text-align: center;">Our clients turn to us to help them
+                reimagine ways of working with technology.
+            </p>
+            <div class="form pt-5 pb-5">
+    
+                <div class="outer-form">
+                    <form action="">
+    
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <input class="form-control form-control-plaintext" type="text" placeholder="hello"
+                                        aria-label="form-control-plaintext" id="name"><hr style="border-bottom: 1px solid darkgray" />
+                                    <label for="name"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">NAME*</label>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <input class="form-control form-control-plaintext" type="email" placeholder="hello"
+                                        aria-label="form-control-plaintext" id="name"><hr style="border-bottom: 1px solid darkgray" />
+                                    <label for="name"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">EMAIL*</label>
+                                </div>
+                            </div>
+    
+    
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <input class="form-control form-control-plaintext" type="text" placeholder="hello"
+                                        aria-label="form-control-plaintext" id="name"><hr style="border-bottom: 1px solid darkgray" />
+                                    <label for="name"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">ORGANIZATION*</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                    <input class="form-control form-control-plaintext" type="text" placeholder="hello"
+                                        aria-label="form-control-plaintext" id="name"><hr style="border-bottom: 2px solid darkgray" />
+                                    <label for="name"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">CONTACT
+                                        NUMBER*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                   <input class="form-control form-control-plaintext" type="text" placeholder="hello" id="Region"><hr style="border-bottom: 2px solid darkgray" />
+                                    <label for="ree"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">REGION*</label>
+                                    <select name="country" class="form-control form-control-plaintext" id="ree"
+                                        aria-label="form-control-plaintext">
+                                        <option value=""></option>
+                                        <option value="">North America</option>
+                                        <option value="">South America</option>
+                                        <option value="">Europe</option>
+                                        <option value="">Middle East</option>
+                                        <option value="">APAC</option>
+                                        <option value="">India</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-floating">
+                                  <input class="form-control form-control-plaintext" type="text" placeholder="hello" id="Region"><hr style="border-bottom: 2px solid darkgrey" />
+                                    <label for="ree"
+                                        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">INQUIRY
+                                        TYPE*</label>
+                                    <select name="country" class="form-control form-control-plaintext" id="ree"
+                                        aria-label="form-control-plaintext">
+                                        <option value=""></option>
+                                        <option value="">Alumni</option>
+                                        <option value="">Career seekers</option>
+                                        <option value="">Invest relations</option>
+                                        <option value="">Media</option>
+                                        <option value="">Partners</option>
+                                        <option value="">Request for services</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="lh" class="pt-5"
+                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">MESSAGE</label> <input class="form-control form-control-plaintext" type="text" placeholder=""
+                            aria-label="form-control-plaintext" id="name"><hr style="border-bottom: 2px solid darkgray" />
+                        <textarea name="dd" class="form-control form-control-plaintext" id="ree" aria-label="form-control-plaintext"
+                            cols="30" rows="5"></textarea>
+                            <div class="text-center">
+                              <a
+                                href="#"
+                                class="btn btn-lg rounded-0 my-3 px-4 py-2"
+                                style="color: white; background-color: #00b140; font-size: 20px;"
+                                >SUBMIT</i
+                              ></a>
+                            </div>
+                    </form>
+                    <p class="text-center" style="font-size: 22px;">
+                      This site is protected by reCAPTCHA and the Google
+                      <span style="color: #00b140"><b>Privacy Policy</b></span> and
+                      <span style="color: #00b140"><b>Terms of Service</b></span> apply.
+                    </p>            </div>
+            </div>
+    </div>
+    
+    </div>
+    <!--------------------------------------- FOOTER ONE --------------------------------------------->
+
+    <div class="footer1">
+      <nav class=" container-fluid navbar navbar-expand-sm  ms-auto " style="background-color:lightgray;">
+          <div class="container">
+              <ul class="nav navbar-nav-toggle">
+                  <li><a href="#" data-bs-toggle="tooltip" title="linkedin" class="fa fa-linkedin" style="font-size: 30px;"></a></li>
+                  <li><a href="#" data-bs-toggle="tooltip" title="twitter" class="fa fa-twitter" style="font-size: 30px;"></a></li>
+                  <li><a href="#" data-bs-toggle="tooltip" title="facebook" class="fa fa-facebook" style="font-size: 30px;"></a></li>
+                  <li><a href="#" data-bs-toggle="tooltip" title="instagram" class="fa fa-instagram"style="font-size: 30px;"></a></li>
+                  <li><a href="#" data-bs-toggle="tooltip" title="youtube" class="fa fa-youtube"style="font-size: 30px;"></a></li>
+              </ul>
+              <ul class="navbar-2 navbar-nav navbar-expand justify-content-end ">
+                  <li><a class="nav-link bar-b mt-1" href="">
+                          <h6>Sitemap</h6>
+                      </a></li>
+                  <li><a class="nav-link bar-b mt-1" href="">
+                          <h6>Terms</h6>
+                      </a></li>
+                  <li><a class="nav-link bar-b mt-1" href="">
+                          <h6>Privacy Notice</h6>
+                      </a></li>
+                  <li><a class="nav-link bar-b mt-1" href="" >
+                          <h6>Cookie Notice</h6>
+                      </a></li>
+                  <li>
+                      <p class="mt-3" style="font-weight: 600;">©2022 Cognizant, all rights reserved</p>
+                  </li>
+              </ul>
+
+          </div>
+      </nav>
+  </div>
+ 
+
+      <!----------------------------FOOTER-------------------------------------------------->
+      <footer class="container foot py-3">
+        <div class="row">
+          <div class="col-sm-3">
+            <ul>
+              <h5 style="color: #0033a1; font-size: 20px; font-weight: bold">
+                INDUSTRIES
+              </h5>
+              <li><a href="#" class="nav-link">Automotive</a></li>
+              <li><a href="#" class="nav-link">Banking</a></li>
+              <li><a href="#" class="nav-link">Capital Markets</a></li>
+              <li>
+                <a href="#" class="nav-link"
+                  >Communications, Media & Technology</a
+                >
+              </li>
+              <li><a href="#" class="nav-link">Consumer Goods</a></li>
+              <li><a href="#" class="nav-link">Education</a></li>
+              <h5
+                style="
+                  color: #0033a1;
+                  font-size: 20px;
+                  font-weight: bold;
+                  padding-top: 50px;
+                "
+              >
+                SERVICES
+              </h5>
+              <h>&nbsp;</h>
+              <li>
+                <a href="#" class="nav-link"
+                  >Application Services & Moderanization</a
+                >
+              </li>
+              <li><a href="#" class="nav-link">Artificial Intelligence</a></li>
+              <li><a href="#" class="nav-link">Business Process Services</a></li>
+              <li><a href="#" class="nav-link">Cloud Enablement</a></li>
+              <li><a href="#" class="nav-link">Core Modernization</a></li>
+              <li><a href="#" class="nav-link">Digital Experience</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul my-3>
+              <h5>&nbsp;</h5>
+              <li><a href="#" class="nav-link">Healthcare</a></li>
+              <li><a href="#" class="nav-link">Information Services</a></li>
+              <li><a href="#" class="nav-link">Insurance</a></li>
+              <li><a href="#" class="nav-link">Life Sciences</a></li>
+              <li><a href="#" class="nav-link">Manufacturing</a></li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <h4>&nbsp;</h4>
+              <li><a href="#" class="nav-link">Digital Strategy</a></li>
+              <li>
+                <a href="#" class="nav-link">Enterprise Application Services</a>
+              </li>
+              <li><a href="#" class="nav-link">Enterprise Services</a></li>
+              <li><a href="#" class="nav-link">Industry+</a></li>
+              <li>
+                <a href="#" class="nav-link">Industry & Platform Solutions</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul my-3>
+              <h5>&nbsp;</h5>
+              <li><a href="#" class="nav-link">Oil & Gas</a></li>
+              <li><a href="#" class="nav-link">Retail</a></li>
+              <li><a href="#" class="nav-link">Transportation & Logistics</a></li>
+              <li><a href="#" class="nav-link">Travel & Hospitality</a></li>
+              <li><a href="#" class="nav-link">Utilities</a></li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <h1>&nbsp;</h1>
+              <h2>&nbsp;</h2>
+              <li><a href="#" class="nav-link">Infrastructure Services</a></li>
+              <li>
+                <a href="#" class="nav-link">Intelligent Process Automation</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Quality Engineering & Assurance</a>
+              </li>
+              <li><a href="#" class="nav-link">Security</a></li>
+              <li>
+                <a href="#" class="nav-link">Software Product Engineering</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul my-3>
+              <h5 style="color: #0033a1; font-size: 20px; font-weight: bold">
+                ABOUT COGNIZANT
+              </h5>
+              <li><a href="#" class="nav-link">2020 in Focus</a></li>
+              <li><a href="#" class="nav-link">Be.Cognizant</a></li>
+              <li><a href="#" class="nav-link">Board of Directors</a></li>
+              <li><a href="#" class="nav-link">Client Briefing Program</a></li>
+              <li><a href="#" class="nav-link">Cognizant Events</a></li>
+              <li><a href="#" class="nav-link">Contact Us</a></li>
+              <li><a href="#" class="nav-link">Corporate Governance</a></li>
+              <li><a href="#" class="nav-link">Corporate Integrity</a></li>
+              <li><a href="#" class="nav-link">Culture & Values</a></li>
+              <li><a href="#" class="nav-link">Diversity & Inclusion</a></li>
+              <li><a href="#" class="nav-link">ESG</a></li>
+              <li><a href="#" class="nav-link">Leadership Team</a></li>
+              <li><a href="#" class="nav-link">News & Press Releases</a></li>
+              <li><a href="#" class="nav-link">Partnerships</a></li>
+              <li><a href="#" class="nav-link">Public Policy</a></li>
+              <li><a href="#" class="nav-link">Sponsorships</a></li>
+              <li><a href="#" class="nav-link">Talent Worldwide</a></li>
+              <li><a href="#" class="nav-link">Women Empowered</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <ul my-3>
+              <h5 style="color: #0033a1; font-size: 20px; font-weight: bold">
+                CONSULTING
+              </h5>
+              <h5
+                style="
+                  color: #0033a1;
+                  font-size: 20px;
+                  font-weight: bold;
+                  padding-top: 10px;
+                "
+              >
+                LATEST THINKING
+              </h5>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link"
+                  style="color: #0033a1; font-weight: bold"
+                  >Our Media & Publications</a
+                >
+              </li>
+              <li><a href="#" class="nav-link">All Latest Thinking</a></li>
+              <li><a href="#" class="nav-link">Browse Case Studies</a></li>
+              <li><a href="#" class="nav-link">Cognizant Podcasts</a></li>
+              <li><a href="#" class="nav-link">Cognizant Journal</a></li>
+              <li><a href="#" class="nav-link">Digitally Cognizant Blog</a></li>
+              <li><a href="#" class="nav-link">Infographics</a></li>
+              <li><a href="#" class="nav-link">Perspectives</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul my-3>
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link"
+                  style="color: #0033a1; font-weight: bold"
+                  >Key Themes</a
+                >
+              </li>
+              <li><a href="#" class="nav-link">Digital Maturity Research</a></li>
+              <li><a href="#" class="nav-link">World Economic Forum—Davos</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul>
+              <h5>&nbsp;</h5>
+              <h5>&nbsp;</h5>
+              <li>
+                <a
+                  href="#"
+                  class="nav-link"
+                  style="color: #0033a1; font-weight: bold"
+                  >Center for the Future of Work</a
+                >
+              </li>
+              <li><a href="#" class="nav-link">21 More Jobs of the Future</a></li>
+              <li>
+                <a href="#" class="nav-link">Digital Workforce of the Future</a>
+              </li>
+              <li><a href="#" class="nav-link">Explore the Future of Work</a></li>
+              <li><a href="#" class="nav-link">Jobs of the Future Index</a></li>
+              <li><a href="#" class="nav-link">Our Post-COVID Future</a></li>
+              <li><a href="#" class="nav-link">The Work Ahead</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-3">
+            <ul>
+              <h5 style="color: #0033a0; font-size: 20px; font-weight: bold">
+                GLOSSARY
+              </h5>
+              <h5 style="color: #0033a0; font-size: 20px; font-weight: bold">
+                INFORMATION FOR SUPPLIERS
+              </h5>
+              <li><a href="#" class="nav-link">Procure-to-Pay</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        BACK TO TOP<img
+          src="https://lh3.googleusercontent.com/-_Ecm3WuHz-4/YA29WjV7waI/AAAAAAAAHZA/wYNwnVT4GCkN5RNV4D1eZ5Jh6DDMkzTHACLcBGAsYHQ/final.png"
+          width="20px"
+          alt="" style="padding-bottom: 5px;"
+        />
+      </button>
+  
+      <script>
+        $(document).ready(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+      </script>
+  
+      <script>
+        AOS.init();
+      </script>
+  
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function () {
+          scrollFunction();
+        };
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"
+      ></script>
+      </body>
+</html>
